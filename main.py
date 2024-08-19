@@ -1,16 +1,15 @@
 # php tutorial on crud
+
 age = 32
 name = 'jones'
 print(name + str(age))
-
-
 
 first_number = (input())
 
 second_number = (input())
 
 result = first_number + second_number
-print(result)#
+print(result)  #
 
 age = int(input())
 
@@ -21,7 +20,6 @@ else:
 
 age = int(input('Your age '))
 
-
 first = int(input('First number '))
 second = int(input('second number '))
 third = int(input('third number '))
@@ -29,12 +27,11 @@ third = int(input('third number '))
 if (first > second) and (first > third):
     print('Fist number is the largest')
 elif (second > first) and (second > third):
-   print('Second number is the largest')
+    print('Second number is the largest')
 elif (third > first) and (third > second):
-   print('Third number is the largest')
+    print('Third number is the largest')
 else:
     print('They are equal')
-
 
 first = int(input('First number '))
 second = int(input('second number '))
@@ -109,3 +106,4 @@ elif 60 <= score < 70:
     print('Grade: D')
 else:
     print('Grade: F')
+
