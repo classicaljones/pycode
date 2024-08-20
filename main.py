@@ -123,14 +123,13 @@
 # else:
 #     print('Odd')
 
-def main():
-    x = int(input("What`s x "))
-    print(f"x square is {square(x)}")
+list1 = ['Giscard', 3, 'Michael', 'infinity']
 
+list2 = ['Jones', 9, 'Fordjour', 'infinity']
 
-def square(n):
-    return n * n
+compare = 'infinity' in list2
 
-
-if __name__ == "__main__":
-    main()
+if compare:
+    print('It is in')
+else:
+    print('It is not in')
