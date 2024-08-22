@@ -166,7 +166,6 @@
 # while True:
 #     if number > 2:
 #         break
-    
 
 
 # for _ in range(number):
@@ -181,7 +180,7 @@
 #         n = int(input("What's n"))
 #         if n > 0:
 #             return n
-        
+
 # def meow(n):
 #     for _ in range(n):
 #         print('hello')
@@ -210,12 +209,35 @@
 
 # for student in students:
 #     print(student, students[student], sep=", ")
+#
+# students = [
+#     {'name': 'Jones', 'house': 'house 2', 'section': '3'},
+#     {'name': 'Michael', 'house': 'house 4', 'section': '1'},
+#     {'name': 'Fordjour', 'house': 'house 5', 'section': None}
+# ]
+#
+# for student in students:
+#     print(student['name'], student['house'])
+#
+# Engineer = []
+# Engineer_1 = []
+#
+# if Engineer :
+#     print('Loading...')
+#     for list in Engineer:
+#         print(list)
+#     else:
+#         print('No record found')
 
-students = [
-    {'name': 'Jones', 'house': 'house 2', 'section': '3'},
-    {'name': 'Michael', 'house': 'house 4', 'section': '1'},
-    {'name': 'Fordjour', 'house': 'house 5', 'section': None}
-]
+def main(size):
+    print_square(size)
 
-for student in students:
-    print(student['name'], student['house'])
+
+def print_square(size):
+    for i in range(size):
+        for j in range(size):
+            print('#', end="")
+        print()
+
+
+main(3)
