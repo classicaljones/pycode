@@ -229,15 +229,17 @@
 #     else:
 #         print('No record found')
 
-def main(size):
-    print_square(size)
+# def main(size):
+#     print_square(size)
 
 
-def print_square(size):
-    for i in range(size):
-        for j in range(size):
-            print('#', end="")
-        print()
+# def print_square(size):
+#     for i in range(size):
+#         for j in range(size):
+#             print('#', end="")
+#         print()
+#
+#
+# main(3)
 
 
-main(3)
