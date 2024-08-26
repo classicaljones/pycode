@@ -242,4 +242,14 @@
 #
 # main(3)
 
+# for i in range(3):
+#     print('#' * 3)
+
+
+# try:
+#     x = int(input('What is x '))
+# except ValueError:
+#     print('X is not integer')
+#
+# print(f'x is {x}')
 
