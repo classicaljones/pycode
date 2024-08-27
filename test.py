@@ -40,17 +40,23 @@
 # elif number_of_people == 0:
 #     print('Light off')
 
-personnel_one = input('Personnel One ').strip()
-personnel_two = input('Personnel Two ').strip()
-p = 'president'
-vp = 'vice president'
-sp = 'speaker'
+# personnel_one = input('Personnel One ')
+# personnel_two = input('Personnel Two ')
+#
+# if personnel_one == 'president' and personnel_two == 'vice president':
+#     print('safe open')
+# elif personnel_one == 'president' and personnel_two == 'speaker':
+#     print('safe open')
+# elif personnel_one == 'vice president' and personnel_two == 'speaker':
+#     print('safe open')
+# else:
+#     print('safe lock')
 
-if personnel_one == p and personnel_two == vp:
-    print('safe open')
-elif personnel_one == p and personnel_two == sp:
-    print('safe open')
-elif personnel_one == vp and personnel_two == sp:
-    print('safe open')
-else:
-    print('safe lock')
+
+# names = ['Giscard', 'Jones', 'Atta Kay']
+#
+# for i in names:
+#     print(i)
+
+Set = {'Giscard', 'Jones', 'Atta', 122}
+
