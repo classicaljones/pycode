@@ -253,3 +253,15 @@
 #
 # print(f'x is {x}')
 
+while True:
+    name = input('Please what is  your name ? ')
+    print('Hello ', name, 'Welcome to our channel')
+    if name == 'Jones':
+        while True:
+            age = input('Please what is your age? ')
+            print(f'Hello {age} welcome to station')
+            
+            if age == '18':
+                break
+    if name == 'Michael':
+        break
