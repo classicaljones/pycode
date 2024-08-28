@@ -253,15 +253,36 @@
 #
 # print(f'x is {x}')
 
-while True:
-    name = input('Please what is  your name ? ')
-    print('Hello ', name, 'Welcome to our channel')
-    if name == 'Jones':
-        while True:
-            age = input('Please what is your age? ')
-            print(f'Hello {age} welcome to station')
+# while True:
+#     name = input('Please what is  your name ? ')
+#     print('Hello ', name, 'Welcome to our channel')
+#     if name == 'Jones':
+#         while True:
+#             age = input('Please what is your age? ')
+#             print(f'Hello {age} welcome to station')
             
-            if age == '18':
+#             if age == '18':
+#                 break
+#     if name == 'Michael':
+#         break
+
+while True:
+    print('Main Menu')
+    print('1. Start')
+    print('2. Exit')
+    try:
+        option = int(input('Option...'))
+        if option == 1:
+            while True:
+                print('Choose your player')
+                player = input('your player name ')
+                print(f'Your are now using {player}')
                 break
-    if name == 'Michael':
+        if option == 2:
+            print('You exit the game')
+            break
+    except ValueError:
+        print('Invalid Option')
+        break
+    else:
         break
