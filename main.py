@@ -242,6 +242,7 @@
 #
 # main(3)
 
+
 # for i in range(3):
 #     print('#' * 3)
 
@@ -266,23 +267,71 @@
 #     if name == 'Michael':
 #         break
 
-while True:
-    print('Main Menu')
-    print('1. Start')
-    print('2. Exit')
-    try:
-        option = int(input('Option...'))
-        if option == 1:
-            while True:
-                print('Choose your player')
-                player = input('your player name ')
-                print(f'Your are now using {player}')
-                break
-        if option == 2:
-            print('You exit the game')
-            break
-    except ValueError:
-        print('Invalid Option')
-        break
-    else:
-        break
+# while True:
+#     print('Main Menu')
+#     print('1. Start')
+#     print('2. Exit')
+#     try:
+#         option = int(input('Option...'))
+#         if option == 1:
+#             while True:
+#                 print('Choose your player')
+#                 player = input('your player name ')
+#                 print(f'Your are now using {player}')
+#                 break
+#         if option == 2:
+#             print('You exit the game')
+#             break
+#     except ValueError:
+#         print('Invalid Option')
+#         break
+#     else:
+#         break
+
+#Creating a Function
+
+
+
+#Defining a Function
+
+# import sys
+
+# try:
+#     print('hello, my name is', sys.argv[1])    
+# except IndexError:
+#     print('Too few argument')
+
+# x = int(input('What is your number'))
+
+# numbers = [1, 2, 3, 4, 5, 6, 7]
+
+# large = numbers[3]
+
+# for number in numbers:
+#     if number > large:
+#         large = number
+# print(large)
+
+# def linear_search(list,target):
+#     for i in range(0, len(list)):
+#         if list[i] == target:
+#             return i
+#     return None
+
+
+# def verify(index):
+#     if index is not None:
+#         print('The number is: ' index)
+#     else:
+#         print('Number not found')
+
+# numbers = [1,2,3,4,5,6,7]
+
+# result = linear_search(numbers, 2)
+
+# verify(result)
+
+for i in range(4):
+    for j in range(4):
+        print('#', end="")
+    print()

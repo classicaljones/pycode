@@ -58,5 +58,43 @@
 # for i in names:
 #     print(i)
 
-Set = {'Giscard', 'Jones', 'Atta', 122}
+# Set = {'Giscard', 'Jones', 'Atta', 122}
 
+# while True:
+#     number_present = int(input('Number of people present '))
+
+#     if number_present >= 3:
+#         print('The light is bright')
+#     elif number_present == 2:
+#         print('The light is Dim')
+#     elif number_present == 1:
+#         print('The light is Dimmer')
+#     else:
+#         print('The light is off')
+#         print('Sleep mode...')
+#     print('Still detecting')
+
+# import json
+# import requests
+# import sys
+
+# if len(sys.argv) != 2:
+#     sys.exit()
+
+# response = requests.get('http://itunes.apple.com/search?entity=song&limit&term' + sys.argv[1])
+
+# print(json.dumps(response.json(), indent=2))
+
+from say import square
+import sys
+
+def main():
+    test_square()
+
+def test_square():
+    assert square(2) == 4
+    assert square(3) == 9
+
+if __name__ == '__main__':
+    main()
+    
