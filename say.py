@@ -64,10 +64,10 @@
 
 def main():
     x = int(input('Square number '))
-    square(x)
+    print(square(x))
 
 def square(number):
-    return (number - number)
+    return (number * number)
 
 
 if __name__ == '__main__':

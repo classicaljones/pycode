@@ -85,16 +85,25 @@
 
 # print(json.dumps(response.json(), indent=2))
 
-from say import square
-import sys
+class MyClass:
+    var1 = 2
+    def func(self,x):
+        return self.var1 + x
+    
+mc = MyClass()
 
-def main():
-    test_square()
+print(mc.var1)
 
-def test_square():
-    assert square(2) == 4
-    assert square(3) == 9
+# from say import square
+# import sys
 
-if __name__ == '__main__':
-    main()
+# def main():
+#     test_square()
+
+# def test_square():
+#     assert square(2) == 4
+#     assert square(5) == 25
+
+# if __name__ == '__main__':
+#     main()
     
