@@ -88,11 +88,13 @@
 class MyClass:
     var1 = 2
     def func(self,x):
-        return self.var1 + x
+        return self.var1 + x0
     
 mc = MyClass()
 
 print(mc.var1)
+
+# github/mrbbasx
 
 # from say import square
 # import sys

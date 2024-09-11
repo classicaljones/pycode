@@ -331,7 +331,31 @@
 
 # verify(result)
 
-for i in range(4):
-    for j in range(4):
-        print('#', end="")
-    print()
+# names = []
+
+# for _ in range(3):
+#     names.append(input('What is your name '))
+
+# for name in sorted(names):
+#     print(f'hello {name}')
+
+# name = input('what is name')
+
+# file = open('jones.txt','w')
+# file.write(name)
+# file.close()
+
+# with open('names.txt','a') as file:
+#     file.write(f'{name}\n')
+
+with open('names.txt', 'r') as file:
+    lines = file.readlines()
+
+for line in lines:
+    print(line)
+
+
+
+
+
+
