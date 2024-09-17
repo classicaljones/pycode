@@ -85,14 +85,14 @@
 
 # print(json.dumps(response.json(), indent=2))
 
-class MyClass:
-    var1 = 2
-    def func(self,x):
-        return self.var1 + x0
+# class MyClass:
+#     var1 = 2
+#     def func(self,x):
+#         return self.var1 + x0
     
-mc = MyClass()
+# mc = MyClass()
 
-print(mc.var1)
+# print(mc.var1)
 
 # github/mrbbasx
 
@@ -108,4 +108,94 @@ print(mc.var1)
 
 # if __name__ == '__main__':
 #     main()
+
+# class Personal_Information:
+#     age = None
+#     first_name: None
+
+#     def __init__(self,firstName,Surname,MiddleName):
+#         self.first_name = firstName
+#         self.surname = Surname
+#         self.middle_name = MiddleName
+
+# object = Personal_Information()
+# print(object.age)
+
+# class Legible_voters:
+
+#     def ageFxn(age):
+#         return age >= 18
+
+
+# voters_age = int(input('What is your age '))
+
+# object = Legible_voters
+
+# if object.ageFxn((voters_age)):
+#     print('You can vote')
+# else:
+#     print('Cannot vote')
+
+
+# class Cal_Shape:
+
+#     def triangle(length,height, width):
+#         volume = 0.5 * (length * height * width)
+#         return volume
     
+#     def square(length):
+#         area = (length ** 2)
+#         return area
+    
+#     def cube(length):
+#         volume = (length ** 3)
+#         return volume
+
+# object_shape = Cal_Shape
+
+# print(object_shape.square(2))
+# print(object_shape.triangle(2,3,2))
+# print(object_shape.cube(2))
+
+Database = [
+    {
+        'Student':'Giscard',
+        'id': 'y24se1703',
+        'programme':'software engineer',
+        'password': 123456
+    },
+    {
+        'Student':'Atta',
+        'id': 'y24se1704',
+        'programme':'software engineer',
+        'password': 1234567
+    },
+      {
+        'Student':'Jones',
+        'id': 'y24se1702',
+        'programme':'software engineer',
+        'password': 12345
+    },
+    {
+        'Student':'Michael',
+        'id': 'y24se1732',
+        'programme':'software engineer',
+        'password': 12345678
+    }
+]
+
+
+class Databases:
+    student = None
+    id = None
+    programme = None
+    password = None
+
+    def __init__(self,Student,Id,Programme,Password):
+        self.student = Student
+        self.id = Id
+        self.programme = Programme
+        self.password = Password
+
+    def getStudent():
+        __student = 

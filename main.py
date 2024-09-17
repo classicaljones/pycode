@@ -347,15 +347,43 @@
 
 # with open('names.txt','a') as file:
 #     file.write(f'{name}\n')
+# names = []
 
-with open('names.txt', 'r') as file:
-    lines = file.readlines()
+# with open('names.txt', 'r') as file:
+#     for line in file:
+#         names.append(line.rstrip())
 
-for line in lines:
-    print(line)
+# for name in names:
+#     print(name)
 
+# students = []
 
+# with open('dict.csv') as file:
+#     for lines in file:
+#         name,subject = lines.rstrip().split(',')
+#         student = {'name':name,'subject':subject}
+#         students.append(student)
 
+# for student in students:
+#     print(f'{student["name"]} is in {student["subject"]}')
 
+# import csv
 
+# students = []
+# with open('dict.csv') as file:
+#     reader = csv.reader(file)
+#     for name, house in reader:
+#         students.append({"name" : name, "house" : house})
+# for student in students:
+#     print(f"{student['name']} is from {student['house']}")
 
+import csv
+
+students = []
+with open('dict.csv') as file:
+    reader = csv.DictReader(file)
+    for row in reader:
+        students.append({'name':row['name'], 'subject':row['subject']})
+
+for student in students:
+    print(f'{student['name']} : {student['subject']}')
