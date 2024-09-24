@@ -198,4 +198,8 @@ class Databases:
         self.password = Password
 
     def getStudent():
-        __student = 
+        
+
+object = Database()
+
+
