@@ -6,7 +6,7 @@ class Marker:
     # __price = None
     # __image = None
 
-    def __init__(self,color,name,type,brand,price,image):
+    def __init__(self,color,name,type,brand,price,image,):
         self.__color = color
         self.__name = name
         self.__type = type
@@ -20,6 +20,19 @@ class Marker:
     def setColor(self,color):
         self.__color = color
 
-object = Marker('red','monami','temporal','monami limited',56,'image.jpg')
-object.setColor('green')
-print(object.getColor())
+    def setName(self,name):
+        self.__name = name
+    
+    def getName(self):
+        return self.__name
+    
+
+object = Marker('red','monami','temporal','monami limited',56,'image.jpg',3)
+# object.setColor('green')
+# print(object.getColor())
+
+
+
+
+object.setName('am')
+print(object.getName())
